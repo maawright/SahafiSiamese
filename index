@@ -14,7 +14,7 @@
 
 <body>
   <script src="js/scripts.js"></script>
-  <h1>Sahafi Siamese</h1>
-  <p> Is this blue?</p>
+  <h1><center>Sahafi Siamese</center></h1>
+  <p> Welcome to Sahafi Siamese</p>
 </body>
 </html>
