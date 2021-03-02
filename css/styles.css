@@ -1,3 +1,18 @@
+/* Master Styles */
+
+body {
+	margin: 0px;
+	color:pink;
+	background-color: rebeccapurple
+}
+
+.container {
+	display:grid;
+	grid-template-column:1fr;
+}
+
+/* Nav Styles */
+
 .nav-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -7,6 +22,10 @@
 
 .left-side{
 	display:flex;
+}
+.right-side{
+	font-size:xx-large ;
+	color: black;
 }
 
 .nav-wrapper > .left-side > div {
@@ -31,4 +50,47 @@
 }
 .nav-link-wrapper a:hover {
 	color: black;
+}
+
+/* Portfolio Styles */
+.portfolio-items-wrapper{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper{
+	position:relative;
+	height 300px;
+	width: 100%;
+}
+
+.portfolio-img-background{
+	height:300px;
+	width:100%;
+	background-size : cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.img-text-wrapper{
+	position:absolute;
+	top: 0;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	text-align:center;
+	padding-left:100px;
+	padding-right:100px;
+}
+.logo-wrapper img{
+justify-content:center;
+align-items:center;
+margin-bottom:20px;
+display:flex;
+	flex-direction:column;
+}
+.subtitle{
+	font-size:xx-large ;
 }
