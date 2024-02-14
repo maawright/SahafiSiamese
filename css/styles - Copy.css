@@ -1,0 +1,101 @@
+/** Website template by freewebsitetemplates.com **/
+#divbody {
+  background-position: center;
+  background: url("../images/background.jpg");
+  background-size: 20px 100px;
+  background-repeat: round;
+  width: 960px;
+  height: 100px;
+  background-position: center;
+  margin: 0 auto;
+}
+
+#page {
+}
+
+#header {
+  width: 960px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#header a#logo {
+  position: relative;
+  z-index: 100;
+}
+
+#header a#logo img {
+  border: 0;
+}
+
+/**-------------- Navigation style ---------------**/
+#header ul.navigation {
+  list-style-type: none;
+  margin: -82px 0 0 150px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px #be6f82;
+}
+
+#header ul.navigation li {
+  float: center;
+  height: 35px;
+  width: 190px;
+  display: inline-block;
+
+  text-align: center;
+}
+
+#header ul.navigation li.active {
+  background: url("../images/menu.gif");
+  background-repeat: no-repeat;
+  background-position: 0 -160px;
+}
+
+#header ul.navigation li a {
+  text-decoration: none;
+  color: #be6f82;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-flex;
+  text-align: center;
+  line-height: 35px;
+  background: url("../images/menu-separator.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 135px;
+}
+
+#header ul.navigation li a:hover {
+  color: #ffffff;
+}
+
+/*      hero Layout     */
+
+#container {
+  background-image: url("../images/shagging.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#description {
+  width: 960px;
+  text-decoration: none;
+  color: #be6f82;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-flex;
+  text-align: center;
+  line-height: 35px;
+  background: url("../images/menu-separator.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 135px;
+}
