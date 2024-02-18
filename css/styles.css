@@ -42,11 +42,11 @@
 
 /*css for Index Page */
 #hero {
-  background-image: url("../images/shagging.jpeg");
+  background-image: url("../images/kittens.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 600px;
   width: auto;
   margin: 0 auto;
 }
@@ -72,9 +72,27 @@
   font-family: "Times New Roman", Times, serif;
   color: #070707;
   font-size: 20px;
-  padding-left: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
 
-  text-align: left;
+  margin: 0;
+}
+
+#AboutUs h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #d18093;
+  font-size: 100px;
+  padding-left: 10px;
+  text-align: center;
+}
+#AboutUs h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: #d18093;
+  font-size: 50px;
+  padding-left: 10px;
+  text-align: center;
+  background: url("../images/background.jpg");
+  background-repeat: cover;
 }
 /* Cats Pages */
 #Catsname {
@@ -82,4 +100,8 @@
   font-size: 64px;
   color: #d18093;
   text-align: center;
+}
+img {
+  float: left;
+  border: 20px;
 }
