@@ -1,12 +1,12 @@
 .container {
   display: flex;
-  background: url("../images/background.jpg");
+  background: url("../images/background.JPG");
   background-repeat: cover;
 }
 #menubar {
   margin: auto;
   list-style: none;
-  gap: 50px;
+  gap: 40px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif, Haettenschweiler,
     "Arial Narrow Bold", sans-serif;
@@ -14,31 +14,10 @@
 #menubar a {
   text-decoration: none;
 
-  color: #d18093;
+  color: #be2246;
   display: block;
 }
-.dropbtn {
-  background: url("../images/background.jpg");
-  margin: auto;
-  color: #d18093;
-  font-size: 20px;
-  border: none;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 140px;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 /*css for Index Page */
 #hero {
@@ -54,7 +33,7 @@
 #description {
   font-family: Arial, Helvetica, sans-serif, Haettenschweiler,
     "Arial Narrow Bold", sans-serif;
-  color: #d18093;
+  color: #be2246;
   font-size: 20px;
   padding-top: 2%;
   text-align: center;
@@ -80,14 +59,14 @@
 
 #AboutUs h1 {
   font-family: "Times New Roman", Times, serif;
-  color: #d18093;
+  color: #be2246;
   font-size: 100px;
   padding-left: 10px;
   text-align: center;
 }
 #AboutUs h2 {
   font-family: "Times New Roman", Times, serif;
-  color: #d18093;
+  color: #be2246;
   font-size: 50px;
   padding-left: 10px;
   text-align: center;
@@ -95,13 +74,45 @@
   background-repeat: cover;
 }
 /* Cats Pages */
+.Girlscontainer{
+  display: flex;
+  gap: 10px;
+}
+
 #Catsname {
   font-family: cursive;
   font-size: 64px;
-  color: #d18093;
+  color: #be2246;
   text-align: center;
+  width:50%
+}
+#Catsname p{
+  font-family: cursive;
+  font-size: 32px;
+  color: #420f1b;
+  text-align: center;
+  
 }
 img {
   float: left;
   border: 20px;
+}
+
+#newkittens{
+  font-family: cursive;
+  font-size: 32px;
+  color: #be2246;
+  text-align: center;
+  
+}
+
+#links p {
+  font-family: "Times New Roman", Times, serif;
+  color: #070707;
+  font-size: 20px;
+padding-top: 20px;
+padding-left:30%;
+display:flex;
+
+  margin: 0;
 }
